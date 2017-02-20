@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update table="sp_instance">
+    <sp_instance action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <class_name/>
+        <color>default</color>
+        <css>.empty-state-content {
+  background-color: rgba(58, 63, 81, 0.7);
+  color: $gray-light;
+}
+
+.list-group-item {
+  background-color: rgba(58, 63, 81, 0.7);
+  border: 0px solid transparent;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.60);
+}
+
+.list-group-item:last-child {
+  border: 0px solid transparent;
+}
+
+.panel-heading {
+  background-color: rgba(138, 143, 160, 0.6);
+  border-bottom: 0px solid transparent;
+  color: #fff;
+}
+
+.panel {
+  border: 1px solid rgba(255, 255, 255, 0.3);
+  background: none;
+}
+
+.panel-footer {
+  display: none;
+}
+
+a {
+color: #fff;
+}</css>
+        <glyph/>
+        <id/>
+        <order>1</order>
+        <short_description/>
+        <size>md</size>
+        <sp_column display_value="2">4ded8fa24f703200a68d30318110c7b2</sp_column>
+        <sp_widget display_value="Popular Questions">e0c3a791d721120023c84f80de610304</sp_widget>
+        <sys_class_name>sp_instance</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2017-02-10 22:14:09</sys_created_on>
+        <sys_customer_update>true</sys_customer_update>
+        <sys_id>41ed8fa24f703200a68d30318110c7b6</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="Service Portal" source="x_76538_service_po">93198fae4f303200a68d30318110c70d</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="Service Portal">93198fae4f303200a68d30318110c70d</sys_scope>
+        <sys_update_name>sp_instance_41ed8fa24f703200a68d30318110c7b6</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2017-02-10 22:14:09</sys_updated_on>
+        <title/>
+        <url/>
+        <widget_parameters/>
+    </sp_instance>
+    <sys_translated_text action="delete_multiple" query="documentkey=41ed8fa24f703200a68d30318110c7b6"/>
+</record_update>

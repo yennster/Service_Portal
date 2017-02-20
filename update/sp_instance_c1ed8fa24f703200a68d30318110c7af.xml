@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update table="sp_instance">
+    <sp_instance action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <class_name/>
+        <color>default</color>
+        <css>@media (max-width: 767px) {
+  .wrapper-xl {
+    padding: 25px 15px !important;
+  }
+  .text-4x {
+    font-size: 3em;
+  }
+}</css>
+        <glyph/>
+        <id/>
+        <order>0</order>
+        <short_description/>
+        <size>md</size>
+        <sp_column display_value="1">c9ed8fa24f703200a68d30318110c7ad</sp_column>
+        <sp_widget display_value="HTML">8679ef89cb21120000f8d856634c9c4f</sp_widget>
+        <sys_class_name>sp_instance</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2017-02-10 22:14:09</sys_created_on>
+        <sys_customer_update>true</sys_customer_update>
+        <sys_id>c1ed8fa24f703200a68d30318110c7af</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Welcome to Service Portal - Landing</sys_name>
+        <sys_package display_value="Service Portal" source="x_76538_service_po">93198fae4f303200a68d30318110c70d</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="Service Portal">93198fae4f303200a68d30318110c70d</sys_scope>
+        <sys_update_name>sp_instance_c1ed8fa24f703200a68d30318110c7af</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2017-02-10 22:14:09</sys_updated_on>
+        <title>Welcome to Service Portal - Landing</title>
+        <url/>
+        <widget_parameters><![CDATA[{
+	"html": {
+		"value": "<div class=\"wrapper-xl\">\n<h1 class=\"text-white font-thin text-4x\">${Welcome to the<br /> Service Portal}</h1>\n<h3 class=\"text-white\">${Log in to order things, get help or report an issue}</h3>\n</div>",
+		"displayValue": "<div class=\"wrapper-xl\">\n<h1 class=\"text-white font-thin text-4x\">${Welcome to the<br /> Service Portal}</h1>\n<h3 class=\"text-white\">${Log in to order things, get help or report an issue}</h3>\n</div>"
+	}
+}]]></widget_parameters>
+    </sp_instance>
+    <sys_translated_text action="delete_multiple" query="documentkey=c1ed8fa24f703200a68d30318110c7af"/>
+</record_update>

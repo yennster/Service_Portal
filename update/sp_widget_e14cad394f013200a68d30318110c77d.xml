@@ -1,0 +1,223 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update table="sp_widget">
+    <sp_widget action="INSERT_OR_UPDATE">
+        <client_script><![CDATA[function (snRecordWatcher, $scope, spUtil, $rootScope, $timeout) {
+	$scope.loadingIndicator = $rootScope.loadingIndicator;
+	$scope.cartItemCount = 0;
+	$scope.itemAddedTooltipOpen = false;
+
+	$scope.$on("$sp.service_catalog.cart.count", function($evt, count) {
+		$scope.cartItemCount = count;
+	});
+
+	var cancelTooltipPromise;
+	$scope.$on("$sp.service_catalog.cart.add_item", function() {
+		$timeout.cancel(cancelTooltipPromise);
+
+		$scope.itemAddedTooltipOpen = true;
+		cancelTooltipPromise = $timeout(function() {
+			$scope.itemAddedTooltipOpen = false;
+		}, 3000);
+	});
+
+	$scope.$on('sp_loading_indicator', function(e, value) {
+		$scope.loadingIndicator = value;
+	});
+
+	$scope.toggleCart = function() {
+		$timeout.cancel(cancelTooltipPromise);
+		$scope.itemAddedTooltipOpen = false;
+		$timeout(function() {
+			$("#cart-dropdown").dropdown("toggle");
+		});
+	}
+
+	// Get list of record watchers
+	var record_watchers = [];
+	if ($scope.data.menu.items) {
+		for(var i in $scope.data.menu.items) {
+			var item = $scope.data.menu.items[i];
+			if (item.type == 'scripted') {
+				if (item.scriptedItems.record_watchers)
+					record_watchers = record_watchers.concat(item.scriptedItems.record_watchers);
+			}
+			if (item.type == 'filtered') {
+				record_watchers.push({'table':item.table,'filter':item.filter});
+			}
+		}
+	}
+
+	// Init record watchers
+	for (var y in record_watchers){
+		var watcher = record_watchers[y];
+		//console.info('Record Watcher: '+watcher.table+' : '+watcher.filter);
+		snRecordWatcher.initList(watcher.table, watcher.filter);
+	}
+
+	$scope.$on("record.updated", function(evt) {
+		spUtil.update($scope);
+	});
+
+}]]></client_script>
+        <controller_as>c</controller_as>
+        <css>.header-loader {
+	float: left;
+  	width: 24px;
+  	position: relative;
+  	top: 24px;
+}
+
+.cart-dropdown {
+  width: 350px;
+  padding: 0;
+  border-top-left-radius: 4px !important;
+  border-top-right-radius: 4px !important;
+
+  ul {
+    max-height: 300px;
+    overflow: auto;
+  }
+
+  .subtotal {
+    display: block;
+  }
+
+  .item-image {
+    padding: 0;
+    margin: 0;
+    text-align: center;
+    max-width:100%;
+    height:auto;
+  }
+  label, p {
+    padding: 0;
+    margin: 0;
+  }
+  .media {
+    padding: 0;
+    margin: 0;
+  }
+  .media-left &gt; a {
+    display: block;
+    width: 48px;
+    max-width: 48px;
+  }
+  .media-body {
+    label {
+      font-weight: bold;
+    }
+  }
+  li.media {
+    border-top: 1px solid #cccccc;
+    padding: 1rem;
+  }
+  .panel {
+    margin: 0;
+  }
+  .panel .panel-body {
+    padding: 0;
+  }
+  .btn-clear {
+		color: #333;
+    background-color: #fff;
+  }
+  p.quantity-price {
+    padding-top: 0.5rem;
+    span {
+      color: #777;
+      padding-right: 0.5rem;
+    }
+  }
+  .align-right {
+  	text-align: right;
+  }
+}
+
+
+
+.item-added-tooltip {
+  width: 184px;
+  font-size: 14px;
+}</css>
+        <data_table>sp_instance_menu</data_table>
+        <demo_data/>
+        <description/>
+        <docs/>
+        <field_list>title</field_list>
+        <has_preview>false</has_preview>
+        <id/>
+        <internal>false</internal>
+        <link/>
+        <name>Copy of Header Menu</name>
+        <option_schema/>
+        <public>true</public>
+        <roles/>
+        <script><![CDATA[(function(){
+	// build menus
+	var menu_id = $sp.getValue('sys_id'); // instance sys_id
+	var gr = new GlideRecord('sp_instance_menu');
+	gr.get(menu_id);
+	data.menu = {};
+	data.menu.name = gr.name.getDisplayValue();
+	data.menu.items = $sp.getMenuItems(menu_id);
+
+	data.cartWidget = $sp.getWidget("sc-shopping-cart", {cartTemplate: "small_shopping_cart.html"});
+})();]]></script>
+        <servicenow>false</servicenow>
+        <sys_class_name>sp_widget</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2017-02-20 17:27:54</sys_created_on>
+        <sys_customer_update>true</sys_customer_update>
+        <sys_id>e14cad394f013200a68d30318110c77d</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Copy of Header Menu</sys_name>
+        <sys_package display_value="Service Portal" source="x_76538_service_po">93198fae4f303200a68d30318110c70d</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="Service Portal">93198fae4f303200a68d30318110c70d</sys_scope>
+        <sys_update_name>sp_widget_e14cad394f013200a68d30318110c77d</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2017-02-20 17:27:54</sys_updated_on>
+        <template><![CDATA[<ul class="nav navbar-nav">
+  <div class="header-loader" ng-show="loadingIndicator">
+    <div class="hidden-xs sp-loading-indicator la-sm">
+      <div></div>
+      <div></div>
+      <div></div>
+    </div>
+  </div>
+  <li ng-repeat="item in data.menu.items" ng-class="{dropdown: item.items.length > 0}" ng-include="'menuTemplate'"></li>
+  <!-- Shopping cart stuff -->
+  <li ng-if="options.enable_cart" class="dropdown hidden-xs">
+  	<a href="javascript:void(0)"
+       data-toggle="dropdown"
+       id="cart-dropdown"
+       uib-tooltip-template="'item-added-tooltip.html'"
+       tooltip-placement="bottom"
+       tooltip-trigger="'none'"
+       tooltip-is-open="$parent.itemAddedTooltipOpen"
+       title="${Cart}">
+    	<i class="fa fa-shopping-cart" aria-hidden="true"></i>
+      <span ng-bind-html="'${Cart}'"></span>
+      <span ng-if="cartItemCount > 0" class="label label-as-badge label-primary sp-navbar-badge-count">{{cartItemCount}}</span>
+		</a>
+    <div class="dropdown-menu cart-dropdown">
+      <sp-widget widget="data.cartWidget"></sp-widget>
+    </div>
+  </li>
+  <li ng-if="options.enable_cart" class="dropdown visible-xs">
+  	<a href="?id=sc_cart"
+       title="${Cart}">
+    	<i class="fa fa-shopping-cart" aria-hidden="true"></i>
+      <span ng-bind-html="'${Cart}'"></span>
+      <span ng-if="cartItemCount > 0" class="label label-as-badge label-primary sp-navbar-badge-count">{{cartItemCount}}</span>
+		</a>
+  </li>
+
+  <script type="text/ng-template" id="item-added-tooltip.html">
+  	<div ng-click="toggleCart()" class="item-added-tooltip">${Item has been added to your cart.}</div>
+  </script>
+</ul>
+]]></template>
+    </sp_widget>
+</record_update>

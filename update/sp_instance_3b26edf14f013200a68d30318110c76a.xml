@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update table="sp_instance">
+    <sp_instance action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <class_name/>
+        <color>default</color>
+        <css/>
+        <glyph/>
+        <id/>
+        <order>2</order>
+        <short_description/>
+        <size>md</size>
+        <sp_column display_value="2">bb26e9f14f013200a68d30318110c750</sp_column>
+        <sp_widget display_value="Request Fields">96cf39f3d7230200a9addd173e24d412</sp_widget>
+        <sys_class_name>sp_instance</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2017-02-20 17:01:18</sys_created_on>
+        <sys_customer_update>true</sys_customer_update>
+        <sys_id>3b26edf14f013200a68d30318110c76a</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Request Fields</sys_name>
+        <sys_package display_value="Service Portal" source="x_76538_service_po">93198fae4f303200a68d30318110c70d</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="Service Portal">93198fae4f303200a68d30318110c70d</sys_scope>
+        <sys_update_name>sp_instance_3b26edf14f013200a68d30318110c76a</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2017-02-20 17:01:18</sys_updated_on>
+        <title>Request Fields</title>
+        <url/>
+        <widget_parameters><![CDATA[{
+	"pickup_msg": "${Requests are picked up within <br/> 4 hours (M-F 9-5)}"
+}]]></widget_parameters>
+    </sp_instance>
+    <sys_translated_text action="delete_multiple" query="documentkey=3b26edf14f013200a68d30318110c76a"/>
+</record_update>

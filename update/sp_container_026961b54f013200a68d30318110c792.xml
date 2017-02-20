@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update table="sp_container">
+    <sp_container action="INSERT_OR_UPDATE">
+        <background_color/>
+        <background_image/>
+        <background_style>default</background_style>
+        <bootstrap_alt>false</bootstrap_alt>
+        <class_name>breadcrumbs-container</class_name>
+        <container_class_name/>
+        <name>ServiceNow Development Dashboard - Container 1</name>
+        <order>1</order>
+        <sp_page display_value="dev_dashboard">3d69ad754f013200a68d30318110c7d3</sp_page>
+        <subheader>true</subheader>
+        <sys_class_name>sp_container</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2017-02-20 17:15:22</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_id>026961b54f013200a68d30318110c792</sys_id>
+        <sys_mod_count>4</sys_mod_count>
+        <sys_name>ServiceNow Development Dashboard - Container 1</sys_name>
+        <sys_package display_value="Service Portal" source="x_76538_service_po">93198fae4f303200a68d30318110c70d</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="Service Portal">93198fae4f303200a68d30318110c70d</sys_scope>
+        <sys_update_name>sp_container_026961b54f013200a68d30318110c792</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2017-02-20 17:55:41</sys_updated_on>
+        <width>container</width>
+    </sp_container>
+</record_update>

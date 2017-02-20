@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update table="sp_page">
+    <sp_page action="INSERT_OR_UPDATE">
+        <css/>
+        <id>kb_view_jenny</id>
+        <internal>false</internal>
+        <public>false</public>
+        <roles/>
+        <short_description/>
+        <sys_class_name>sp_page</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2017-02-20 17:00:18</sys_created_on>
+        <sys_customer_update>true</sys_customer_update>
+        <sys_id>45f529f14f013200a68d30318110c7ff</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name>kb_view_jenny</sys_name>
+        <sys_package display_value="Service Portal" source="x_76538_service_po">93198fae4f303200a68d30318110c70d</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="Service Portal">93198fae4f303200a68d30318110c70d</sys_scope>
+        <sys_update_name>sp_page_45f529f14f013200a68d30318110c7ff</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2017-02-20 17:00:27</sys_updated_on>
+        <title>KB View (Jenny)</title>
+    </sp_page>
+    <sys_translated_text action="delete_multiple" query="documentkey=45f529f14f013200a68d30318110c7ff"/>
+</record_update>

@@ -7,24 +7,24 @@
         <bootstrap_alt>false</bootstrap_alt>
         <class_name/>
         <container_class_name/>
-        <name>Copy of Knowledge Base - Container 2</name>
+        <name>KB View2 (Jenny) - Container 2</name>
         <order>2</order>
-        <sp_page display_value="copy_of_kb_view2">22cd0ba24f703200a68d30318110c775</sp_page>
+        <sp_page display_value="kb_view2_jenny">22cd0ba24f703200a68d30318110c775</sp_page>
         <subheader>false</subheader>
         <sys_class_name>sp_container</sys_class_name>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2017-02-10 22:13:42</sys_created_on>
-        <sys_customer_update>true</sys_customer_update>
+        <sys_customer_update>false</sys_customer_update>
         <sys_id>eecd4fa24f703200a68d30318110c74f</sys_id>
-        <sys_mod_count>0</sys_mod_count>
-        <sys_name>Copy of Knowledge Base - Container 2</sys_name>
+        <sys_mod_count>3</sys_mod_count>
+        <sys_name>KB View2 (Jenny) - Container 2</sys_name>
         <sys_package display_value="Service Portal" source="x_76538_service_po">93198fae4f303200a68d30318110c70d</sys_package>
         <sys_policy/>
         <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
         <sys_scope display_value="Service Portal">93198fae4f303200a68d30318110c70d</sys_scope>
         <sys_update_name>sp_container_eecd4fa24f703200a68d30318110c74f</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2017-02-10 22:13:42</sys_updated_on>
+        <sys_updated_on>2017-02-20 16:58:04</sys_updated_on>
         <width>container</width>
     </sp_container>
 </record_update>

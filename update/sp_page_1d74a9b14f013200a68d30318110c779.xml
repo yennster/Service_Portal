@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update table="sp_page">
+    <sp_page action="INSERT_OR_UPDATE">
+        <css>section.page {&#13;
+	background-color: $sp-homepage-bg;&#13;
+}&#13;
+section.page, section.body {&#13;
+    padding-top: 0px !important;&#13;
+}&#13;
+</css>
+        <id>index_jenny</id>
+        <internal>false</internal>
+        <public>false</public>
+        <roles/>
+        <short_description/>
+        <sys_class_name>sp_page</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2017-02-20 16:53:45</sys_created_on>
+        <sys_customer_update>true</sys_customer_update>
+        <sys_id>1d74a9b14f013200a68d30318110c779</sys_id>
+        <sys_mod_count>4</sys_mod_count>
+        <sys_name>index_jenny</sys_name>
+        <sys_package display_value="Service Portal" source="x_76538_service_po">93198fae4f303200a68d30318110c70d</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="Service Portal">93198fae4f303200a68d30318110c70d</sys_scope>
+        <sys_update_name>sp_page_1d74a9b14f013200a68d30318110c779</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2017-02-20 16:57:54</sys_updated_on>
+        <title>Index (Jenny)</title>
+    </sp_page>
+    <sys_translated_text action="delete_multiple" query="documentkey=1d74a9b14f013200a68d30318110c779"/>
+</record_update>

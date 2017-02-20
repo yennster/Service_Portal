@@ -14,7 +14,6 @@
         <sys_created_on>2017-02-20 16:50:14</sys_created_on>
         <sys_customer_update>false</sys_customer_update>
         <sys_domain>global</sys_domain>
-        <sys_domain_path>/</sys_domain_path>
         <sys_id>69a365714f013200a68d30318110c740</sys_id>
         <sys_mod_count>2</sys_mod_count>
         <sys_name>mobile</sys_name>
@@ -27,6 +26,6 @@
         <sys_updated_on>2017-02-20 17:06:25</sys_updated_on>
         <table>sp_page</table>
         <title>mobile</title>
-        <user display_value="Jenny Plunkett">6816f79cc0a8016401c5a33be04be441</user>
+        <user display_value="System Administrator">6816f79cc0a8016401c5a33be04be441</user>
     </sys_filter>
 </record_update>

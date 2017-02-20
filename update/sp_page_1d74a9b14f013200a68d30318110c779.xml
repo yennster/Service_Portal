@@ -16,7 +16,7 @@ section.page, section.body {&#13;
         <sys_class_name>sp_page</sys_class_name>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2017-02-20 16:53:45</sys_created_on>
-        <sys_customer_update>true</sys_customer_update>
+        <sys_customer_update>false</sys_customer_update>
         <sys_id>1d74a9b14f013200a68d30318110c779</sys_id>
         <sys_mod_count>4</sys_mod_count>
         <sys_name>index_jenny</sys_name>
@@ -29,5 +29,4 @@ section.page, section.body {&#13;
         <sys_updated_on>2017-02-20 16:57:54</sys_updated_on>
         <title>Index (Jenny)</title>
     </sp_page>
-    <sys_translated_text action="delete_multiple" query="documentkey=1d74a9b14f013200a68d30318110c779"/>
 </record_update>

@@ -10,45 +10,36 @@
         <docs/>
         <field_list/>
         <has_preview>false</has_preview>
-        <id>burndown_chart</id>
+        <id>burndown-chart</id>
         <internal>false</internal>
         <link/>
         <name>Burndown Chart</name>
         <option_schema/>
         <public>false</public>
         <roles/>
-        <script><![CDATA[(function() {
-  /* populate the 'data' object */
-  /* e.g., data.table = $sp.getValue('table'); */
-  data.report = "show_report.do?report="+options.report;
-  if (options.height) {
-  data.height = options.height +"px";
-  } else {
-  data.height = "300px";
-  }
-})();]]></script>
+        <script/>
         <servicenow>false</servicenow>
         <sys_class_name>sp_widget</sys_class_name>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2017-02-20 17:42:53</sys_created_on>
         <sys_customer_update>true</sys_customer_update>
         <sys_id>b8bf2db94f013200a68d30318110c7ac</sys_id>
-        <sys_mod_count>3</sys_mod_count>
+        <sys_mod_count>12</sys_mod_count>
         <sys_name>Burndown Chart</sys_name>
         <sys_package display_value="Service Portal" source="x_76538_service_po">93198fae4f303200a68d30318110c70d</sys_package>
         <sys_policy/>
         <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
         <sys_scope display_value="Service Portal">93198fae4f303200a68d30318110c70d</sys_scope>
         <sys_update_name>sp_widget_b8bf2db94f013200a68d30318110c7ac</sys_update_name>
-        <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2017-02-20 17:48:24</sys_updated_on>
+        <sys_updated_by>jplunkett</sys_updated_by>
+        <sys_updated_on>2017-02-20 18:32:28</sys_updated_on>
         <template><![CDATA[<div class="panel panel-{{options.color}} b">
   <div class="panel-heading">
-    <h4 class="panel-title">Current Release Burndown Chart</h4>
+    <h4 class="panel-title">Release Burndown Charts</h4>
   </div>
 
   <div class="panel-body">
-    
+     <iframe src="https://utsandbox.service-now.com/sdlc_release_burndown_frame.do" frameborder="0" width="100%" height="500px" scrolling="no" ></iframe>
   </div>
 </div>]]></template>
     </sp_widget>

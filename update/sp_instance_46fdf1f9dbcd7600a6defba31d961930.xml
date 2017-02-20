@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update table="sp_instance">
+    <sp_instance action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <class_name/>
+        <color>default</color>
+        <css/>
+        <glyph/>
+        <id/>
+        <order>1</order>
+        <short_description/>
+        <size>md</size>
+        <sp_column display_value="1">e4eb35f9dbcd7600a6defba31d9619f0</sp_column>
+        <sp_widget display_value="Newsletter">fa6071f94f013200a68d30318110c7e8</sp_widget>
+        <sys_class_name>sp_instance</sys_class_name>
+        <sys_created_by>jplunkett</sys_created_by>
+        <sys_created_on>2017-02-20 18:45:13</sys_created_on>
+        <sys_customer_update>true</sys_customer_update>
+        <sys_id>46fdf1f9dbcd7600a6defba31d961930</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="Service Portal" source="x_76538_service_po">93198fae4f303200a68d30318110c70d</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="Service Portal">93198fae4f303200a68d30318110c70d</sys_scope>
+        <sys_update_name>sp_instance_46fdf1f9dbcd7600a6defba31d961930</sys_update_name>
+        <sys_updated_by>jplunkett</sys_updated_by>
+        <sys_updated_on>2017-02-20 18:45:13</sys_updated_on>
+        <title/>
+        <url/>
+        <widget_parameters/>
+    </sp_instance>
+</record_update>

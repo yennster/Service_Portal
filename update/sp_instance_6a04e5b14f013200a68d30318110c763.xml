@@ -20,11 +20,11 @@
         <short_description/>
         <size>md</size>
         <sp_column display_value="2">6a04e5b14f013200a68d30318110c75e</sp_column>
-        <sp_widget display_value="Language Switch">af0f73105b0122000d7ec7ad31f91a27</sp_widget>
+        <sp_widget display_value="">af0f73105b0122000d7ec7ad31f91a27</sp_widget>
         <sys_class_name>sp_instance</sys_class_name>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2017-02-20 16:51:56</sys_created_on>
-        <sys_customer_update>true</sys_customer_update>
+        <sys_customer_update>false</sys_customer_update>
         <sys_id>6a04e5b14f013200a68d30318110c763</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_name/>
@@ -39,5 +39,4 @@
         <url/>
         <widget_parameters/>
     </sp_instance>
-    <sys_translated_text action="delete_multiple" query="documentkey=6a04e5b14f013200a68d30318110c763"/>
 </record_update>

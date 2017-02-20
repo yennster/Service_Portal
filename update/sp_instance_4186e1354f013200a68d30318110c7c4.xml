@@ -15,7 +15,7 @@
         <sys_class_name>sp_instance</sys_class_name>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2017-02-20 17:02:45</sys_created_on>
-        <sys_customer_update>true</sys_customer_update>
+        <sys_customer_update>false</sys_customer_update>
         <sys_id>4186e1354f013200a68d30318110c7c4</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_name>Search</sys_name>
@@ -30,5 +30,4 @@
         <url/>
         <widget_parameters/>
     </sp_instance>
-    <sys_translated_text action="delete_multiple" query="documentkey=4186e1354f013200a68d30318110c7c4"/>
 </record_update>

@@ -15,7 +15,7 @@
         <sys_class_name>sp_instance</sys_class_name>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2017-02-20 16:55:43</sys_created_on>
-        <sys_customer_update>true</sys_customer_update>
+        <sys_customer_update>false</sys_customer_update>
         <sys_id>c2e461f14f013200a68d30318110c7ba</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_name>SC Catalog Item</sys_name>
@@ -35,5 +35,4 @@
 	}
 }]]></widget_parameters>
     </sp_instance>
-    <sys_translated_text action="delete_multiple" query="documentkey=c2e461f14f013200a68d30318110c7ba"/>
 </record_update>

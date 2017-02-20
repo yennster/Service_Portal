@@ -12,7 +12,7 @@
         <kb_topic/>
         <order>0</order>
         <sc_cat_item/>
-        <sc_category display_value="Can We Help You?">e15706fc0a0a0aa7007fc21e1ab70c2f</sc_category>
+        <sc_category display_value="">e15706fc0a0a0aa7007fc21e1ab70c2f</sc_category>
         <short_description>Contact support to make a request, or report a problem</short_description>
         <size>md</size>
         <sp_column display_value="3">3b37e9354f013200a68d30318110c7c2</sp_column>
@@ -21,7 +21,7 @@
         <sys_class_name>sp_instance_link</sys_class_name>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2017-02-20 17:05:56</sys_created_on>
-        <sys_customer_update>true</sys_customer_update>
+        <sys_customer_update>false</sys_customer_update>
         <sys_id>3337e9354f013200a68d30318110c7c4</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_name>Get Help</sys_name>
@@ -42,5 +42,4 @@
 	}
 }]]></widget_parameters>
     </sp_instance_link>
-    <sys_translated_text action="delete_multiple" query="documentkey=3337e9354f013200a68d30318110c7c4"/>
 </record_update>

@@ -5,7 +5,6 @@
         <enforce_license>log</enforce_license>
         <js_level>helsinki_es5</js_level>
         <licensable>true</licensable>
-        <license_model>none</license_model>
         <logo/>
         <menu/>
         <name>Service Portal</name>

@@ -167,7 +167,7 @@
         <sys_class_name>sp_widget</sys_class_name>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2017-02-20 17:27:54</sys_created_on>
-        <sys_customer_update>true</sys_customer_update>
+        <sys_customer_update>false</sys_customer_update>
         <sys_id>e14cad394f013200a68d30318110c77d</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_name>Copy of Header Menu</sys_name>

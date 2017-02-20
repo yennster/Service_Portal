@@ -10,7 +10,7 @@
         <sys_class_name>sp_page</sys_class_name>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2017-02-20 16:59:29</sys_created_on>
-        <sys_customer_update>true</sys_customer_update>
+        <sys_customer_update>false</sys_customer_update>
         <sys_id>4dc561f14f013200a68d30318110c7d4</sys_id>
         <sys_mod_count>1</sys_mod_count>
         <sys_name>sc_cart_jenny</sys_name>
@@ -23,5 +23,4 @@
         <sys_updated_on>2017-02-20 16:59:44</sys_updated_on>
         <title>SC Cart (Jenny)</title>
     </sp_page>
-    <sys_translated_text action="delete_multiple" query="documentkey=4dc561f14f013200a68d30318110c7d4"/>
 </record_update>

@@ -24,7 +24,7 @@ $text-muted: #656e75;</css_variables>
         <default>true</default>
         <homepage display_value="index">46cc384147532100ba13a5554ee49009</homepage>
         <icon/>
-        <kb_knowledge_base display_value="IT">a7e8a78bff0221009b20ffffffffff17</kb_knowledge_base>
+        <kb_knowledge_base display_value="">a7e8a78bff0221009b20ffffffffff17</kb_knowledge_base>
         <kb_knowledge_page display_value="kb_view2">26c2e030d7201200a9addd173e24d437</kb_knowledge_page>
         <login_page/>
         <logo>59c36d314f013200a68d30318110c78c.iix?t=m</logo>
@@ -41,7 +41,7 @@ $text-muted: #656e75;</css_variables>
 		"field" : "background_image"
 	}
 }]]]></quick_start_config>
-        <sc_catalog display_value="Technical Catalog">742ce428d7211100f2d224837e61036d</sc_catalog>
+        <sc_catalog display_value="">742ce428d7211100f2d224837e61036d</sc_catalog>
         <sc_catalog_page/>
         <sp_chat_queue/>
         <sp_rectangle_menu display_value="SP Header Menu">d150fd31cb10020000f8d856634c9ce6</sp_rectangle_menu>
@@ -49,7 +49,7 @@ $text-muted: #656e75;</css_variables>
         <sys_class_name>sp_portal</sys_class_name>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2017-02-10 21:55:39</sys_created_on>
-        <sys_customer_update>true</sys_customer_update>
+        <sys_customer_update>false</sys_customer_update>
         <sys_id>508907224f703200a68d30318110c73d</sys_id>
         <sys_mod_count>14</sys_mod_count>
         <sys_name>UT Service Portal</sys_name>
@@ -64,11 +64,11 @@ $text-muted: #656e75;</css_variables>
         <title>UT Service Portal</title>
         <url_suffix>utss</url_suffix>
     </sp_portal>
-    <sys_translated_text action="delete_multiple" query="documentkey=508907224f703200a68d30318110c73d"/>
     <sys_attachment action="INSERT_OR_UPDATE">
         <average_image_color>#0</average_image_color>
         <compressed>true</compressed>
         <content_type>image/png</content_type>
+        <encryption_context/>
         <file_name>logo</file_name>
         <image_height>530</image_height>
         <image_width>2578</image_width>

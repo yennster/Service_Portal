@@ -15,7 +15,7 @@
         <sys_class_name>sp_instance</sys_class_name>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2017-02-20 17:01:18</sys_created_on>
-        <sys_customer_update>true</sys_customer_update>
+        <sys_customer_update>false</sys_customer_update>
         <sys_id>3b26edf14f013200a68d30318110c76a</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_name>Request Fields</sys_name>
@@ -32,5 +32,4 @@
 	"pickup_msg": "${Requests are picked up within <br/> 4 hours (M-F 9-5)}"
 }]]></widget_parameters>
     </sp_instance>
-    <sys_translated_text action="delete_multiple" query="documentkey=3b26edf14f013200a68d30318110c76a"/>
 </record_update>

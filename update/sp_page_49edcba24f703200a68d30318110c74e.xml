@@ -23,7 +23,7 @@ main {&#13;
         <sys_class_name>sp_page</sys_class_name>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2017-02-10 22:14:09</sys_created_on>
-        <sys_customer_update>true</sys_customer_update>
+        <sys_customer_update>false</sys_customer_update>
         <sys_id>49edcba24f703200a68d30318110c74e</sys_id>
         <sys_mod_count>3</sys_mod_count>
         <sys_name>landing_jenny</sys_name>
@@ -36,5 +36,4 @@ main {&#13;
         <sys_updated_on>2017-02-20 16:58:11</sys_updated_on>
         <title>Landing (Jenny)</title>
     </sp_page>
-    <sys_translated_text action="delete_multiple" query="documentkey=49edcba24f703200a68d30318110c74e"/>
 </record_update>

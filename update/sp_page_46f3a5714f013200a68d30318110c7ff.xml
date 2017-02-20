@@ -10,7 +10,7 @@
         <sys_class_name>sp_page</sys_class_name>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2017-02-20 16:51:37</sys_created_on>
-        <sys_customer_update>true</sys_customer_update>
+        <sys_customer_update>false</sys_customer_update>
         <sys_id>46f3a5714f013200a68d30318110c7ff</sys_id>
         <sys_mod_count>3</sys_mod_count>
         <sys_name>kb_category_jenny</sys_name>
@@ -23,5 +23,4 @@
         <sys_updated_on>2017-02-20 16:57:58</sys_updated_on>
         <title>KB Category (Jenny)</title>
     </sp_page>
-    <sys_translated_text action="delete_multiple" query="documentkey=46f3a5714f013200a68d30318110c7ff"/>
 </record_update>
